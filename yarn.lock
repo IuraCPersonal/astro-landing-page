@@ -87,7 +87,7 @@
   dependencies:
     prismjs "^1.28.0"
 
-"@astrojs/react@^2.2.1":
+"@astrojs/react@^2.1.0", "@astrojs/react@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@astrojs/react/-/react-2.2.1.tgz#33132661bf21c9206f76e9ad2817010d638fe9db"
   integrity sha512-nq5Zr8iWdwjSp5fh1NReaCplwsnL4w5PXAY5XWu1jE/frxEfF/ycGHrrhwWW0uJHX9G+kUtmQLR0GBhlR4FmAw==
@@ -150,7 +150,7 @@
     json5 "^2.2.2"
     semver "^6.3.1"
 
-"@babel/generator@^7.22.10", "@babel/generator@^7.22.5":
+"@babel/generator@^7.21.4", "@babel/generator@^7.22.10", "@babel/generator@^7.22.5":
   version "7.22.10"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.22.10.tgz#c92254361f398e160645ac58831069707382b722"
   integrity sha512-79KIf7YiWjjdZ81JnLujDRApWtl7BxTqWD88+FFdQEIOG8LJ0etDOM7CXuIgGJa55sGOwZVwuEsaLEm0PJ5/+A==
@@ -268,7 +268,7 @@
     chalk "^2.4.2"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.1.0", "@babel/parser@^7.20.7", "@babel/parser@^7.22.10", "@babel/parser@^7.22.5":
+"@babel/parser@^7.1.0", "@babel/parser@^7.20.7", "@babel/parser@^7.21.4", "@babel/parser@^7.22.10", "@babel/parser@^7.22.5":
   version "7.22.10"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.22.10.tgz#e37634f9a12a1716136c44624ef54283cabd3f55"
   integrity sha512-lNbdGsQb9ekfsnjFGhEiF4hfFqGgfOP3H3d27re3n+CGhNuTSUEQdfWk556sTLNTloczcdM5TYF2LhzmDQKyvQ==
@@ -324,6 +324,36 @@
     "@babel/helper-string-parser" "^7.22.5"
     "@babel/helper-validator-identifier" "^7.22.5"
     to-fast-properties "^2.0.0"
+
+"@bookshop/astro-bookshop@3.6.5":
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/@bookshop/astro-bookshop/-/astro-bookshop-3.6.5.tgz#9f77398425cdc4f833d94979be245a104eb6805b"
+  integrity sha512-NZaxjxOjP2WV/2qegUkTGMzKBDPjrIzY6DcxP3VwvxO4Qoh0DkEH5EjHOB8+GP9dsV5lpYt+KGIIMtXl4gFm9w==
+  dependencies:
+    "@astrojs/react" "^2.1.0"
+    "@bookshop/helpers" "3.6.5"
+    "@bookshop/vite-plugin-astro-bookshop" "3.6.5"
+    "@cloudcannon/remark-auto-import" "^1.0.1"
+
+"@bookshop/helpers@3.6.5":
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/@bookshop/helpers/-/helpers-3.6.5.tgz#f8b1900125fedfb6c8df2f2d396c449c1071fad8"
+  integrity sha512-2xlrMNq/I/UB1Rb3Uxx+GfgVK29dVRW6pehauSANU8hLfcnrQHnrn88AarGMjSmfRGc0Mmx19IFINwErJyguLA==
+
+"@bookshop/vite-plugin-astro-bookshop@3.6.5":
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/@bookshop/vite-plugin-astro-bookshop/-/vite-plugin-astro-bookshop-3.6.5.tgz#ddc6ccb0ee79b9741743982e1fe7d88d43d9e938"
+  integrity sha512-5tiGJNZT4UDOx2NenwVyloOqp0gIyzpuUeyP1lH4y8/PabCQ2fFST7PUeRuy7X0VwCdBwetz2lGyQByW+1b2eQ==
+  dependencies:
+    "@babel/generator" "^7.21.4"
+    "@babel/parser" "^7.21.4"
+
+"@cloudcannon/remark-auto-import@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@cloudcannon/remark-auto-import/-/remark-auto-import-1.0.1.tgz#ad68494820199d63bc83aae664e3ae01b9ddfebc"
+  integrity sha512-YEzrpwiPaLW4bTKeRFpaLei8dektckg40lUbeK5K2wGUu/BInbFbW/HxGvxzINQ6qMPjCfNzSCWxmUqciQJGcQ==
+  dependencies:
+    fast-glob "^3.2.12"
 
 "@commitlint/config-validator@^17.6.7":
   version "17.6.7"
