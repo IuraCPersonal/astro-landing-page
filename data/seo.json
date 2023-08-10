@@ -1,0 +1,32 @@
+{
+    "site_name": "Sempio",
+    "site_title": "Sempio Web Agency",
+    "description": "Growth, potential, and the beginning of something new.",
+    "author": "IuraCPersonal",
+    "author_email": "iurie.cius.personal@gmail.com",
+    "images": [
+        {
+            "image": "/images/_screenshot.png",
+            "description": "Screenshot for Sempio Agency",
+            "height": 0,
+            "width": 0
+        }
+    ],
+    "_structures": {
+        "images": {
+            "style": "select",
+            "values": [
+                {
+                    "label": "Image",
+                    "icon": "image",
+                    "value": {
+                        "image": "",
+                        "description": "",
+                        "height": 0,
+                        "width": 0
+                    }
+                }
+            ]
+        }
+    }
+}

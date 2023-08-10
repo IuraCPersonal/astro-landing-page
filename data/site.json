@@ -1,4 +1,7 @@
 {
   "site_title": "Sempio",
-  "description": "Some description here"
+  "description": "Help clients bring their ideas to life and foster growth in the digital realm.",
+  "favicon_icon": "/images/favicon.svg",
+  "favicon_image": "/images/favicon.svg",
+  "twitter_site": "@twitter_site"
 }
