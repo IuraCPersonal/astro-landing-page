@@ -1,3 +1,6 @@
+/********** 
+ 3. Container and widths  Styles 
+**********/
 .container,
 .container-fluid,
 .container-xxl,
@@ -6,8 +9,8 @@
 .container-md,
 .container-sm {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
+  padding-right: var(--bs-gutter-x, 0.75rem) !important;
+  padding-left: var(--bs-gutter-x, 0.75rem) !important;
   margin-right: auto;
   margin-left: auto;
 }

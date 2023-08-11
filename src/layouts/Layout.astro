@@ -1,5 +1,6 @@
 ---
 import '../styles/theme.scss'
+import Navigation from '@components/layouts/navigation'
 import { SEO } from 'astro-seo'
 import site from '@data/site.json'
 
@@ -70,11 +71,12 @@ const canonicalURL = new URL(seo?.canonical_url ?? Astro.url.pathname, baseUrl)
   </head>
 
   <body>
+    <Navigation client:load pageUrl={canonicalURL} />
     <slot />
 
     <script src="/vendor/jQuery/jquery.min.js" is:inline></script>
-    <script src="/vendor/counter-up/counterup.js" is:inline></script>
     <script src="/vendor/bootstrap/bootstrap.bundle.min.js" is:inline></script>
+    <script src="/vendor/counter-up/counterup.js" is:inline></script>
     <script src="/vendor/magnific-popup/magnific-popup.min.js" is:inline
     ></script>
     <script src="/js/script.js" async></script>

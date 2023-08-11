@@ -4,7 +4,7 @@ const md = new MarkdownIt({ html: true });
 export default function HomeHero(block) {
     return (
         <section>
-            <h3
+            {/* <h3
                 className="my-5"
                 dangerouslySetInnerHTML={{
                     __html: md.render(block.title),
@@ -15,7 +15,7 @@ export default function HomeHero(block) {
                     __html: md.render(block.description)
                 }}
             >
-            </p>
+            </p> */}
         </section>
     );
 }
