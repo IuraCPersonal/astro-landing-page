@@ -16,4 +16,7 @@ content_blocks:
       We help clients bring their ideas to life and foster growth in the digital realm.
     image: /images/hero/hero-image-2.png
     image_alt: Reports dashboard
+    button:
+      text: Hire Us
+      link: /signup/
 ---
